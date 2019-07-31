@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[DDoSakrua's GitBook]]></title>
+        <description><![CDATA[DDoSakrua's GitBoo]]></description>
+        <link>http://xxxxxxxxxxxxxx/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 31 Jul 2019 02:34:11 GMT</lastBuildDate>
+        <atom:link href="http://xxxxxxxxxxxxxx/rss" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[DDoSakrua]]></author>
+        <category><![CDATA[gitbook]]></category>
+        <item>
+            <title><![CDATA[DDoSakura's Gitbook]]></title>
+            <description><![CDATA[Welcome to DDoSakura's Gitbook]]></description>
+            <link>http://xxxxxxxxxxxxxx/</link>
+            <guid isPermaLink="true">http://xxxxxxxxxxxxxx/</guid>
+            <dc:creator><![CDATA[DDoSakrua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Gitbook 说明 😏]]></title>
+            <description><![CDATA[$$ E=mc^2 $$]]></description>
+            <link>http://xxxxxxxxxxxxxx/gitbook.html</link>
+            <guid isPermaLink="true">http://xxxxxxxxxxxxxx/gitbook.html</guid>
+            <dc:creator><![CDATA[DDoSakrua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[每天学点 lodash]]></title>
+            <description><![CDATA[一直以来对 lodash 的使用都挺随缘的，文档也没有全部过过一遍，只是想着——嗯，这个功能挺常见的，应该有吧——的心态去用的。]]></description>
+            <link>http://xxxxxxxxxxxxxx/lodash/README.html</link>
+            <guid isPermaLink="true">http://xxxxxxxxxxxxxx/lodash/README.html</guid>
+            <dc:creator><![CDATA[DDoSakrua]]></dc:creator>
+        </item>
+    </channel>
+</rss>
