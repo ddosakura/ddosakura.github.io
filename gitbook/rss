@@ -4,7 +4,7 @@
         <description><![CDATA[DDoSakrua's GitBook]]></description>
         <link>https://ddosakura.github.io/gitbook/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 31 Jul 2019 09:01:28 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Aug 2019 09:55:30 GMT</lastBuildDate>
         <atom:link href="https://ddosakura.github.io/gitbook/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[DDoSakrua]]></author>
         <category><![CDATA[gitbook]]></category>
@@ -37,10 +37,31 @@
             <dc:creator><![CDATA[DDoSakrua]]></dc:creator>
         </item>
         <item>
-            <title><![CDATA[Lodash - Array - Day I]]></title>
+            <title><![CDATA[Lodash - Array - Part I]]></title>
             <description><![CDATA[{% method %}]]></description>
             <link>https://ddosakura.github.io/gitbook/day_by_day/lodash/array/20190731.html</link>
             <guid isPermaLink="true">https://ddosakura.github.io/gitbook/day_by_day/lodash/array/20190731.html</guid>
+            <dc:creator><![CDATA[DDoSakrua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Lodash - Array - Part II]]></title>
+            <description><![CDATA[{% method %}]]></description>
+            <link>https://ddosakura.github.io/gitbook/day_by_day/lodash/array/20190801.html</link>
+            <guid isPermaLink="true">https://ddosakura.github.io/gitbook/day_by_day/lodash/array/20190801.html</guid>
+            <dc:creator><![CDATA[DDoSakrua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Lodash - Array - Part III]]></title>
+            <description><![CDATA[看到 _.drop 函数的时候用到了切片数组（slice）这个词，回顾之前的十来个函数似乎都是和数组遍历有关的，所以把切片类的函数单独拿出来分成一个部分。]]></description>
+            <link>https://ddosakura.github.io/gitbook/day_by_day/lodash/array/20190804.html</link>
+            <guid isPermaLink="true">https://ddosakura.github.io/gitbook/day_by_day/lodash/array/20190804.html</guid>
+            <dc:creator><![CDATA[DDoSakrua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[总结]]></title>
+            <description><![CDATA[阅读源码过程中也找了一些资料，一开始这几个简书搜到了好几次：]]></description>
+            <link>https://ddosakura.github.io/gitbook/day_by_day/lodash/array/summary.html</link>
+            <guid isPermaLink="true">https://ddosakura.github.io/gitbook/day_by_day/lodash/array/summary.html</guid>
             <dc:creator><![CDATA[DDoSakrua]]></dc:creator>
         </item>
         <item>

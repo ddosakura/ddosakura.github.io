@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Array · DDoSakura Gitbook</title>
+        <title>总结 · DDoSakura Gitbook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -112,10 +112,10 @@
     <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="20190731.html" />
+    <link rel="next" href="../" />
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="20190804.html" />
     
 
     <link href="https://ddosakura.github.io/gitbook/rss" title="DDoSakrua's GitBook" rel="alternate" type="application/rss+xml" />
@@ -224,7 +224,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="2.1.2" data-path="./">
+        <li class="chapter " data-level="2.1.2" data-path="./">
             
                 <a href="./">
             
@@ -277,7 +277,7 @@
             
         </li>
     
-        <li class="chapter " data-level="2.1.2.4" data-path="summary.html">
+        <li class="chapter active" data-level="2.1.2.4" data-path="summary.html">
             
                 <a href="summary.html">
             
@@ -519,7 +519,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../.." >Array</a>
+        <a href="../../.." >总结</a>
     </h1>
 </div>
 
@@ -534,35 +534,37 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#lodash---array"><b></b>Lodash - Array</a></li></ul></div><a href="#lodash---array" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="lodash---array"><a name="lodash---array" class="anchor-navigation-ex-anchor" href="#lodash---array"><i class="fa fa-link" aria-hidden="true"></i></a><a name="lodash---array" class="plugin-anchor" href="#lodash---array"><i class="fa fa-link" aria-hidden="true"></i></a>Lodash - Array</h1>
-<p>&#x6570;&#x7EC4;</p>
-<table>
-<thead>
-<tr>
-<th>Part</th>
-<th>number</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>I</td>
-<td>3</td>
-</tr>
-<tr>
-<td>II</td>
-<td>9</td>
-</tr>
-<tr>
-<td>III</td>
-<td>9 + 1 + 2 (+4)</td>
-</tr>
-</tbody>
-</table>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x603B;&#x7ED3;"><b></b>&#x603B;&#x7ED3;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4F1A;&#x5BF9;&#x4F20;&#x5165;&#x7684;-array-&#x9020;&#x6210;&#x6539;&#x53D8;&#x7684;&#x51FD;&#x6570;"><b></b>&#x4F1A;&#x5BF9;&#x4F20;&#x5165;&#x7684; array &#x9020;&#x6210;&#x6539;&#x53D8;&#x7684;&#x51FD;&#x6570;</a></li><li><span class="title-icon "></span><a href="#question"><b></b>Question</a></li><li><span class="title-icon "></span><a href="#tips"><b></b>Tips</a></li></ul></ul></div><a href="#&#x603B;&#x7ED3;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x603B;&#x7ED3;"><a name="&#x603B;&#x7ED3;" class="anchor-navigation-ex-anchor" href="#&#x603B;&#x7ED3;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x603B;&#x7ED3;" class="plugin-anchor" href="#&#x603B;&#x7ED3;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x603B;&#x7ED3;</h1>
 <ul>
-<li>&#x62EC;&#x53F7;&#x4E2D;&#x662F;&#x975E;&#x6570;&#x7EC4;&#x90E8;&#x5206;&#x7684;&#x51FD;&#x6570;</li>
+<li>guard</li>
+<li>By/With</li>
+<li>base</li>
+<li>SameValueZero</li>
+<li>&#x4E2A;&#x4EBA;&#x611F;&#x89C9; <code>&#x5207;&#x7247;&#x7CFB;&#x5217;</code> &#x7684;&#x51FD;&#x6570;&#x201C;&#x7528;&#x529B;&#x8FC7;&#x731B;&#x201D;&#xFF0C;&#x4E5D;&#x4E2A;&#x51FD;&#x6570;&#x5C31;&#x5E72;&#x4E86;&#x4E00;&#x4EF6;&#x4E8B;&#xFF0C;&#x81EA;&#x7136;&#x800C;&#x7136;&#x5C31;&#x60F3;&#x5230;&#x4E86; <a href="https://github.com/lodash/lodash/wiki/Build-Differences" target="_blank">lodash-core</a>&#xFF0C;&#x53EA;&#x5305;&#x542B;&#x4E86; <code>slice</code> &#x4E00;&#x4E2A;&#x3002;&#x5176;&#x5B9E;&#x5728;&#x770B; lodash &#x6E90;&#x7801;&#x524D;&#xFF0C;&#x5BF9; lodash &#x591A;&#x8FBE; 403 &#x4E2A;&#x7684;&#x51FD;&#x6570;&#x671F;&#x671B;&#x90FD;&#x5F88;&#x9AD8;&#xFF0C;&#x6BD5;&#x7ADF;&#x8BF8;&#x5982;&#x9632;&#x6296;(debounce)&#x3001;&#x8282;&#x6D41;(throttle)&#x51FD;&#x6570;&#x58F0;&#x540D;&#x5728;&#x5916;&#xFF0C;&#x73B0;&#x5728;&#x770B;&#x6765;&#xFF0C;&#x5176;&#x5197;&#x4F59;&#x8FD8;&#x662F;&#x6BD4;&#x8F83;&#x91CD;&#x7684;&#xFF08;&#x4E0D;&#x8FC7; core &#x7248;&#x6CA1;&#x6709; debounce/throttle &#x8FD9;&#x7C7B;&#x51FD;&#x6570;&#xFF0C;&#x8FD9;&#x4E2A;&#x4E4B;&#x540E;&#x518D;&#x8C08;&#xFF09;&#x3002;</li>
+</ul>
+<h2 id="&#x4F1A;&#x5BF9;&#x4F20;&#x5165;&#x7684;-array-&#x9020;&#x6210;&#x6539;&#x53D8;&#x7684;&#x51FD;&#x6570;"><a name="&#x4F1A;&#x5BF9;&#x4F20;&#x5165;&#x7684;-array-&#x9020;&#x6210;&#x6539;&#x53D8;&#x7684;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x4F1A;&#x5BF9;&#x4F20;&#x5165;&#x7684;-array-&#x9020;&#x6210;&#x6539;&#x53D8;&#x7684;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4F1A;&#x5BF9;&#x4F20;&#x5165;&#x7684;-array-&#x9020;&#x6210;&#x6539;&#x53D8;&#x7684;&#x51FD;&#x6570;" class="plugin-anchor" href="#&#x4F1A;&#x5BF9;&#x4F20;&#x5165;&#x7684;-array-&#x9020;&#x6210;&#x6539;&#x53D8;&#x7684;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4F1A;&#x5BF9;&#x4F20;&#x5165;&#x7684; array &#x9020;&#x6210;&#x6539;&#x53D8;&#x7684;&#x51FD;&#x6570;</h2>
+<ul>
+<li>pull &#x7CFB;&#x5217;</li>
+<li>fill</li>
+</ul>
+<h2 id="question"><a name="question" class="anchor-navigation-ex-anchor" href="#question"><i class="fa fa-link" aria-hidden="true"></i></a><a name="question" class="plugin-anchor" href="#question"><i class="fa fa-link" aria-hidden="true"></i></a>Question</h2>
+<ul>
+<li style="list-style: none"><input type="checkbox" disabled="disabled" checked="checked"> baseDifference &#x4E4B; isCommon &amp;&amp; computed === computed</li>
+<li style="list-style: none"><input type="checkbox" disabled="disabled" checked="checked"> difference &#x4F20;&#x53C2;&#x95EE;&#x9898;</li>
+</ul>
+<h2 id="tips"><a name="tips" class="anchor-navigation-ex-anchor" href="#tips"><i class="fa fa-link" aria-hidden="true"></i></a><a name="tips" class="plugin-anchor" href="#tips"><i class="fa fa-link" aria-hidden="true"></i></a>Tips</h2>
+<p>&#x9605;&#x8BFB;&#x6E90;&#x7801;&#x8FC7;&#x7A0B;&#x4E2D;&#x4E5F;&#x627E;&#x4E86;&#x4E00;&#x4E9B;&#x8D44;&#x6599;&#xFF0C;&#x4E00;&#x5F00;&#x59CB;&#x8FD9;&#x51E0;&#x4E2A;&#x7B80;&#x4E66;&#x641C;&#x5230;&#x4E86;&#x597D;&#x51E0;&#x6B21;&#xFF1A;</p>
+<ul>
+<li><a href="https://www.jianshu.com/u/64604bb9c80d" target="_blank">https://www.jianshu.com/u/64604bb9c80d</a></li>
+<li><a href="https://www.jianshu.com/u/c73166fee788" target="_blank">https://www.jianshu.com/u/c73166fee788</a></li>
+</ul>
+<p>&#x4E0D;&#x7EA6;&#x800C;&#x540C;&#x7684;&#x5728; <code>difference</code> &#x5904;&#x65AD;&#x66F4; 2333&#xFF0C;&#x5E0C;&#x671B;&#x81EA;&#x5DF1;&#x80FD;&#x575A;&#x6301;&#x4E0B;&#x53BB;&#x3002;</p>
+<p>&#x8FD9;&#x4E2A;&#x535A;&#x5BA2;&#x5C31;&#x6BD4;&#x8F83;&#x8D5E;&#x4E86;&#xFF1A;</p>
+<ul>
+<li><a href="https://www.cnblogs.com/hahazexia/category/1246962.html" target="_blank">https://www.cnblogs.com/hahazexia/category/1246962.html</a></li>
 </ul>
 <footer class="page-footer"><span class="copyright">Copyright &#xA9; DDoSakura 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2019-08-04 17:07:39
+2019-08-04 17:49:25
 </span></footer>
                                 
                                 </section>
@@ -596,7 +598,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Array","level":"2.1.2","depth":2,"next":{"title":"Part I","level":"2.1.2.1","depth":3,"path":"day_by_day/lodash/array/20190731.md","ref":"day_by_day/lodash/array/20190731.md","articles":[]},"previous":{"title":"Base - native & private","level":"2.1.1","depth":2,"path":"day_by_day/lodash/README.md","ref":"day_by_day/lodash/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","-highlight","search-plus","prism","advanced-emoji","github","katex","include-codeblock","splitter","mermaid-gb3","puml","graph","chart","sharing-plus","tbfed-pagefooter","expandable-chapters-small","sectionx","donate","simple-page-toc","anchors","anchor-navigation-ex","sitemap-general","todo","terminal","alerts","include-csv","musicxml","rss","theme-api","runkit"],"styles":{"website":"assets/styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy DDoSakura 2019","modify_label":"修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"ignore":[]},"include-csv":{},"github":{"url":"https://github.com/ddosakura"},"puml":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"runkit":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"graph":{},"donate":{"alipay":"/gitbook/assets/images/alipay.jpg","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"/gitbook/assets/images/weixin.jpg","wechatText":"微信打赏"},"sitemap-general":{"prefix":"https://ddosakura.github.io/gitbook"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["gitbook"],"title":"DDoSakrua's GitBook","description":"DDoSakrua's GitBook","author":"DDoSakrua","feed_url":"https://ddosakura.github.io/gitbook/rss","site_url":"https://ddosakura.github.io/gitbook/"},"musicxml":{},"sectionx":{"tag":"b"},"mermaid-gb3":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"theme-api":{"languages":[],"split":true,"theme":"light"},"alerts":{},"expandable-chapters-small":{},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"monokai","unindent":true},"sharing":{"qq":false,"all":["douban","facebook","google","hatenaBookmark","instapaper","line","linkedin","messenger","pocket","qq","qzone","stumbleupon","twitter","viber","vk","weibo","whatsapp"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"terminal":{"copyButtons":false,"fade":false,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"DDoSakura","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"DDoSakura Gitbook","language":"zh-hans","links":{"sidebar":{"DDoSakura Domain":"https://ddosakura.github.io/"}},"gitbook":"3.2.3","description":"DDoSakura Gitbook"},"file":{"path":"day_by_day/lodash/array/README.md","mtime":"2019-08-04T09:07:39.667Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-04T09:55:26.507Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"总结","level":"2.1.2.4","depth":3,"next":{"title":"Collection","level":"2.1.3","depth":2,"path":"day_by_day/lodash/README.md","ref":"day_by_day/lodash/README.md","articles":[]},"previous":{"title":"Part III","level":"2.1.2.3","depth":3,"path":"day_by_day/lodash/array/20190804.md","ref":"day_by_day/lodash/array/20190804.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","-highlight","search-plus","prism","advanced-emoji","github","katex","include-codeblock","splitter","mermaid-gb3","puml","graph","chart","sharing-plus","tbfed-pagefooter","expandable-chapters-small","sectionx","donate","simple-page-toc","anchors","anchor-navigation-ex","sitemap-general","todo","terminal","alerts","include-csv","musicxml","rss","theme-api","runkit"],"styles":{"website":"assets/styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy DDoSakura 2019","modify_label":"修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"ignore":[]},"include-csv":{},"github":{"url":"https://github.com/ddosakura"},"puml":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"runkit":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"graph":{},"donate":{"alipay":"/gitbook/assets/images/alipay.jpg","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"/gitbook/assets/images/weixin.jpg","wechatText":"微信打赏"},"sitemap-general":{"prefix":"https://ddosakura.github.io/gitbook"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["gitbook"],"title":"DDoSakrua's GitBook","description":"DDoSakrua's GitBook","author":"DDoSakrua","feed_url":"https://ddosakura.github.io/gitbook/rss","site_url":"https://ddosakura.github.io/gitbook/"},"musicxml":{},"sectionx":{"tag":"b"},"mermaid-gb3":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"theme-api":{"languages":[],"split":true,"theme":"light"},"alerts":{},"expandable-chapters-small":{},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"monokai","unindent":true},"sharing":{"qq":false,"all":["douban","facebook","google","hatenaBookmark","instapaper","line","linkedin","messenger","pocket","qq","qzone","stumbleupon","twitter","viber","vk","weibo","whatsapp"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"terminal":{"copyButtons":false,"fade":false,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"DDoSakura","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"DDoSakura Gitbook","language":"zh-hans","links":{"sidebar":{"DDoSakura Domain":"https://ddosakura.github.io/"}},"gitbook":"3.2.3","description":"DDoSakura Gitbook"},"file":{"path":"day_by_day/lodash/array/summary.md","mtime":"2019-08-04T09:49:25.893Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-04T09:55:26.507Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
